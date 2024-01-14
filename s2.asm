@@ -33121,7 +33121,7 @@ loc_1912E:				; CODE XREF: ROM:00019190j
 		move.w	$C(a0),$C(a1)
 		move.b	#$48,0(a1) ; 'H'
 		move.b	#6,$24(a1)
-		move.l	#$852E,4(a1)
+		move.l	#Map_Obj15,4(a1)
 		move.w	#$380,2(a1)
 		bsr.w	j_ModifyA1SpriteAttr_2P_1
 		move.b	#1,$1A(a1)
@@ -33141,7 +33141,7 @@ loc_1916A:				; CODE XREF: ROM:0001912Cj
 
 loc_19194:				; CODE XREF: ROM:00019134j
 		move.b	#8,$24(a1)
-		move.l	#$85CA,4(a1)
+		move.l	#Map_Obj48,4(a1)
 		move.w	#$43AA,2(a1)
 		bsr.w	j_ModifyA1SpriteAttr_2P_1
 		move.b	#1,$1A(a1)
